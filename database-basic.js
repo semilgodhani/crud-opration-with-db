@@ -146,24 +146,6 @@ app.get("/api/users/getusers", async (req, resp) => {
     }
 });
 
-
-
-
-//     console.log("OOOOOPOPPPPP");
-
-//     // const createuser = user.build({ name: "parth" })
-//     // const runQueries = async () => {
-//     const res = await sequelize.query(`INSERT INTO public.users("user", "name", age,"createdAt","updatedAt") VALUES ('RRR111', 'SATISH1111', 29,'2024-09-20 08:23:00','2024-09-20 08:23:00')`);
-//     console.log('Users:', res.rows);
-//     // console.log('Inserted User:', newUser.rows[0]);
-//     // }
-
-//     // createuser.save()
-//     //     resp.send(req.body)
-
-
-
-
 app.listen(PORT, () => {
     console.log(`server is running at ${PORT}`)
 })
